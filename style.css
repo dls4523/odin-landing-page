@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: roboto;
+}
+
+.hero-section, .header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    height: 62px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    width: 400px;
+    padding: 0 30px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.hero-image {
+    display: flex;
+    background-color: gray;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-signup {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.mainmenu {
+    display: flex;
+    gap: 35px;
+}
+
+.mainmenu ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.mainmenu li {
+    list-style-type: none;
+
+}
+
+.info-section {
+    justify-content: center;
+    padding: 4em;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.info-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.info-image {
+    height: 140px;
+    width: 140px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+.info-card {
+    width: 150px;
+    height: auto;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 14em;
+}
+
+.testimonial em {
+    font-weight: 100;
+    font-size: 32px;
+    color: #1f2937;
+}
+
+.testimonial p {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 4em 7em;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
